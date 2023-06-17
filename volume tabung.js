@@ -1,5 +1,5 @@
-var phi =3.14;
-var r = 5;
-var t = 10;
-var volume = phi * r * r * t;
+let phi =3.14;
+let r = 5;
+let t = 10;
+let volume = phi * r * r * t;
 console.log(volume);
