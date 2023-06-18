@@ -10,7 +10,7 @@
 1. ISI variabel phi DENGAN angka 3.14
 2. ISI variabel r DENGAN angka 4
 3. ISI variabel t DENGAN angka 8
-4. ISI variabel Luas dengan 2*phi*r (r+t) 
+4. ISI variabel Luas dengan 2 mul phi mul r mul (r add t) 
 */
 
 // Coding
