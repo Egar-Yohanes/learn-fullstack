@@ -1,22 +1,18 @@
-/*Buatlah sebuah function untuk cek apakah bilangan prima atau tidak
-*contoh bilanganprima(19)
-result : bukan bilangan prima
-*/
+/**
+ * Study Case 4
+ * Buatlah sebuah function untuk menghitung rata2
+ * 
+ * contoh:
+ * countAverag([1,2,3,4,5])
+ * 
+ * Result:
+ * Average = 3.00
+ */
 
 
-function cekBilanganPrima(angka) {
-    if (angka <= 1) {
-      return "bukan bilangan prima";
-    }
-  
-    for (var i = 2; i <= Math.sqrt(angka); i++) {
-      if (angka % i === 0) {
-        return "bukan bilangan prima";
-      }
-    }
-  
-    return "bilangan prima";
+function countAverage(numbers){
+  var total = 0;
+  for(var i = 0; i < numbers.length; i++){
+      total += numbers[i]
   }
-  
-  console.log(cekBilanganPrima(19));
-  
+  return (total/numbers.length).toFixed(2)
