@@ -1,4 +1,5 @@
-let umur = 16;
+//nested if else
+let umur = 15;
 let tinggi = 154;
 if (umur >=17) {
     if (tinggi >= 153) {
